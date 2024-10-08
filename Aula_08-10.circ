@@ -77,6 +77,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(270,210)" to="(310,210)"/>
     <wire from="(510,210)" to="(510,300)"/>
     <wire from="(430,120)" to="(470,120)"/>
+    <wire from="(500,230)" to="(540,230)"/>
     <wire from="(200,160)" to="(230,160)"/>
     <wire from="(160,220)" to="(250,220)"/>
     <wire from="(480,60)" to="(510,60)"/>
@@ -86,6 +87,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(300,110)" to="(510,110)"/>
     <wire from="(520,200)" to="(540,200)"/>
     <wire from="(190,90)" to="(190,140)"/>
+    <wire from="(470,230)" to="(480,230)"/>
     <wire from="(270,220)" to="(280,220)"/>
     <wire from="(190,140)" to="(270,140)"/>
     <wire from="(330,60)" to="(340,60)"/>
@@ -93,7 +95,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(510,60)" to="(510,110)"/>
     <wire from="(140,200)" to="(210,200)"/>
     <wire from="(510,110)" to="(510,170)"/>
-    <wire from="(470,230)" to="(540,230)"/>
     <comp loc="(510,200)" name="Buffer 3 State">
       <a name="facing" val="west"/>
     </comp>
@@ -129,6 +130,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="label" val="OV"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(500,230)" name="NOT Gate">
+      <a name="size" val="20"/>
     </comp>
     <comp lib="0" loc="(180,270)" name="Clock"/>
     <comp lib="0" loc="(310,230)" name="Pin">
